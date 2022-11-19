@@ -150,7 +150,7 @@ const Item: FC<ItemProps> = observer((props) => {
           <span className={linkClassNames}>{content}</span>
         )
       ) : (
-        <a className={linkClassNames} href={`${window.location.origin}/${to}`}>
+        <a className={linkClassNames} href={`/${to}`}>
           {content}
         </a>
       )}
